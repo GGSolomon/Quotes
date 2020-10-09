@@ -1,19 +1,19 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Quote } from '../quote';
 
 @Component({
-
+  selector: 'app-quotes',
   templateUrl: './quotes.component.html',
   styleUrls: ['./quotes.component.css']
 })
 export class QuotesComponent implements OnInit {
-
+  quoteModel: Quote;
   showNew: Boolean = false;
   submitType: string = 'Save';
 
 
   onNew() {
-
+    this.quoteModel = new Quote("", "", "", new Date(), 0, 0);
     this.submitType = 'Save';
     this.showNew = true;
   }
