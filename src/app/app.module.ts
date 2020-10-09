@@ -13,7 +13,6 @@ import { QuoteDetailsComponent } from './quote-details/quote-details.component';
     QuotesComponent,
     QuoteDetailsComponent,
 
-
   ],
   imports: [
     BrowserModule,
