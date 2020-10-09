@@ -1,6 +1,6 @@
 <div class="container-fluid">
   <div class="row">
-  <button (click)="onNew()" class="btn btn-success form-btn" id="form-btn">Add a Quote</button>
+  <button (click)="onNew()" class="btn btn-success form-btn" id="form-btn">Add A New Quote</button>
 
   <form  (ngSubmit)="onSave()" *ngIf="showNew" id="quote-form">
 
@@ -32,7 +32,7 @@
 
     <div class="card" *ngFor='let quote of quotes;let i = index'  >
       <div class="card-body">
-        <i class="fa fa-quote-left"></i>
+        
         <p appHighlight >{{quote.text}} </p>
         <p>{{quote.author}}</p>
       </div>
