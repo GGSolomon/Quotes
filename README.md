@@ -1,4 +1,4 @@
-# Quotes
+## Quotes
 
 This project was developed and last updated on 09/10/2020 by GGSolomon
 
