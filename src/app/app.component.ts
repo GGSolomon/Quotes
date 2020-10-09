@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Quotes';
+  title = ' Quotable Quotes';
+  subtitle = 'Add and rate famous Inspirational Quotes';
+  footer = '© 2020 GGSolomon All rights reserved';
 }

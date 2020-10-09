@@ -1,0 +1,32 @@
+header{
+    text-align: center;
+    margin: 30px;
+    color: blue;  
+    background: white;
+  
+  }
+  h1 {
+    text-transform: uppercase;
+    font-size: 70px;
+    letter-spacing: 30px;
+    font-weight: bold;
+  }
+  .sub-title{
+    letter-spacing: 10px;
+    font-weight: bold;
+  }
+  
+  body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVyBsgHqcRDB--lBHp2wfTXc7C-LNpFcXXqQ&usqp=CAU');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-position: center;
+    background-size: 100%;
+  }
+  
+  .jumbotron {
+  background-color: lightblue;
+  }
+  footer {
+    background-color: lightblue;
+  }
