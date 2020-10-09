@@ -1,73 +1,72 @@
 .author {
-    font-style: italic;
-    font-weight: bold;
-    text-align: right;
-  }
-  .btn{
-    margin: 10px;
-  }
-  .card{
-    margin: 5px;
-  }
-  .card-body{
-    text-align: center;
-    color: white;
-  }
-  .action{
-    text-align: center;
-    color: #777777;
-    font-size: 30px;
-  }
-  form{
-    padding: 20px;
-    background-color:blue;
-    width: 30%;
-    border-radius: 10px;
-    position: absolute;
-    z-index: 2;
-  
-  }
-  label{
-    font-weight: bold;
-    color: #ffffff;
-    letter-spacing: 2px;
-  }
-  .cancel-form{
-    text-align: right;
-  }
-  .form-btn{
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .card:nth-child(6n-5) {
-    background-color: #0088ff;
-  }
-  .card:nth-child(6n-4) {
-    background-color: #0088ff;
-  }
-  .card:nth-child(6n-3) {
-    background-color: #0088ff;
-  }
-  .card:nth-child(6n-2) {
-    background-color: #0088ff;
-  }
-  .card:nth-child(6n-1) {
-    background-color: #0088ff;
-  }
-  .card:nth-child(6n+0) {
-    background-color: #0088ff;
-  }
-  .card-footer{
-    background-color: white;
-  }
-  .fa-quote-left{
-    float: left;
-    font-size: 30px;
-  }
-  .del{
-    color: red;
-    float: right;
-  }
-  
-  
+  font-style: italic;
+  font-weight: bold;
+  text-align: right;
+}
+.btn{
+  margin: 10px;
+}
+.card{
+  margin: 5px;
+}
+.card-body{
+  text-align: center;
+  color: white;
+}
+.action{
+  text-align: center;
+  color: #777777;
+  font-size: 30px;
+}
+form{
+  padding: 20px;
+  background-color:blue;
+  width: 30%;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 2;
+
+}
+label{
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+.cancel-form{
+  text-align: right;
+}
+.form-btn{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card:nth-child(6n-5) {
+  background-color: #0088ff;
+}
+.card:nth-child(6n-4) {
+  background-color: #0088ff;
+}
+.card:nth-child(6n-3) {
+  background-color: #0088ff;
+}
+.card:nth-child(6n-2) {
+  background-color: #0088ff;
+}
+.card:nth-child(6n-1) {
+  background-color: #0088ff;
+}
+.card:nth-child(6n+0) {
+  background-color: #0088ff;
+}
+.card-footer{
+  background-color: white;
+}
+.fa-quote-left{
+  float: left;
+  font-size: 30px;
+}
+.del{
+  color: red;
+  float: right;
+}
+
