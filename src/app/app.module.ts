@@ -4,12 +4,14 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { QuotesComponent } from './quotes/quotes.component';
+import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     QuotesComponent,
+    QuoteDetailsComponent,
 
 
   ],
